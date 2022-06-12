@@ -1,0 +1,9 @@
+/.gradle/
+/build/
+/gradle/wrapper/
+/gradlew
+/gradlew.bat
+/gradle.properties
+/.idea/
+.env
+*docker-compose.yaml

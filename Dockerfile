@@ -10,6 +10,7 @@ USER root
 RUN mkdir /cloudsql
 RUN chmod 777 /cloudsql
 
+# Path to the changelog source
 ADD /src/main/resources/db/changelog /liquibase/changelog
 
 ADD liquibase.sh /liquibase/liquibase.sh
